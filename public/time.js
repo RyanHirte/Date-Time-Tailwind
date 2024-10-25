@@ -49,9 +49,9 @@ const theClockApp = () => {
     Set DOM Elements
     ************/
     // Set the hours
-    hours.innerText = gotHours;
+    hours.innerText = gotHours + ":";
     // Set the minutes
-    minutes.innerText = gotMinutes;
+    minutes.innerText = gotMinutes + ":";
     // Set the seconds
     seconds.innerText = gotSeconds;
     // Set AM or PM
