@@ -3,4 +3,4 @@
 Get the current date and time in your HTML styled with Tailwind CSS.
 
 ## Sources 
-* [Source](URL)
+* [Tailwind Cheatsheet](https://nerdcave.com/tailwind-cheat-sheet)
