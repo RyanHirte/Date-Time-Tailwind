@@ -1,40 +1,38 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Tailwind CSS Starter Kit</title>
 
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style.css" />
 
     <script src="time.js" defer></script>
     <script src="date.js" defer></script>
-
-</head>
-<body class="h-screen flex items-center justify-center">
-
+  </head>
+  <body class="h-screen flex items-center justify-center">
     <main class="rounded-2xl p-2 shadow-xl">
-  
-        <!-- Time -->
-        <time class="time container mx-auto block grid lg:grid-cols-4 md:grid-cols-2 font-mono">
-                <data class="hours block text-9xl text-green-400">HH</data>
-                
-                <data class="minutes block text-9xl text-green-400">MM</data>
-                
-                <data class="seconds block text-9xl text-green-400">SS</data>
-                <data class="amOrPM block text-7xl text-green-400">AM/PM</data>
-            </time>
-      
-          
-        <!-- Date -->
-        <time class="date container mx-auto block grid lg:grid-cols-4 md:grid-cols-2 font-mono">
-          <data class="month block text-5xl text-green-400">Month</data>
-          <data class="dayOfMonth block text-5xl text-green-400">00</data>
-          <data class="year block text-5xl text-green-400">0000</data> 
-          <data class="dayOfWeek block text-5xl text-green-400">SMTWTFS</data>
-        </time>
-      
-      </main>
-    
-</body>
+      <!-- Time -->
+      <time
+        class="time container mx-auto block grid lg:grid-cols-4 md:grid-cols-2 font-mono"
+      >
+        <data class="hours block text-9xl text-green-400">HH</data>
+
+        <data class="minutes block text-9xl text-green-400">MM</data>
+
+        <data class="seconds block text-9xl text-green-400">SS</data>
+        <data class="amOrPM block text-7xl text-green-400">AM/PM</data>
+      </time>
+
+      <!-- Date -->
+      <time
+        class="date container mx-auto block grid lg:grid-cols-4 md:grid-cols-2 font-mono"
+      >
+        <data class="month block text-5xl text-green-400 mr-4">Month</data>
+        <data class="dayOfMonth block text-5xl text-green-400">00</data>
+        <data class="year block text-5xl text-green-400">0000</data>
+        <data class="dayOfWeek block text-5xl text-green-400">SMTWTFS</data>
+      </time>
+    </main>
+  </body>
 </html>
